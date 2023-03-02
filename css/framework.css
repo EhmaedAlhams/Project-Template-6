@@ -1,15 +1,66 @@
-.p-20 {
-    padding: 20px;
+/* Start Flexbox */
+.d-flex {
+    display: flex;
 }
 
-.pt-20 {
-    padding-top: 20px;
+.align-center {
+    align-items: center;
+}
+
+/* End Flexbox  */
+
+/* Padding & Margin  */
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
 }
 
 .m-20 {
     margin: 20px;
 }
 
-.bg-eee {
-    background-color: #eee;
+.mt-0 {
+    margin-top: 0px;
+}
+
+/* Padding & Margin  */
+
+/* Color  */
+.bg-white {
+    background-color: white;
+}
+
+.color-black {
+    color: black;
+}
+
+/* Color  */
+
+/* Start Border  */
+.rad-6 {
+    border-radius: 6px;
+}
+
+/* End Border  */
+
+/* Position  */
+.relative {
+    position: relative;
+}
+
+/* Position  */
+
+/* Start Font  */
+.txt-center {
+    text-align: center;
+}
+
+/* End Font  */
+
+/* Width & Height  */
+
+
 }
