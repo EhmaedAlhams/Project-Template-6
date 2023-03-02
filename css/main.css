@@ -95,3 +95,19 @@ ul {
 }
 
 /* Sidebar  */
+
+/* Content  */
+
+.content {}
+
+.head .search::before {
+    content: '';
+}
+
+.head .search input[type="search"] {}
+
+.head .search input[type="search"]::focus {}
+
+.head .search input[type="search"]::placeholder {}
+
+/* Content  */
