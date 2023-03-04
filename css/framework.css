@@ -22,12 +22,12 @@
     padding: 20px;
 }
 
-.m-20 {
-    margin: 20px;
-}
-
 .mt-0 {
     margin-top: 0px;
+}
+
+.m-20 {
+    margin: 20px;
 }
 
 /* Padding & Margin  */
@@ -44,8 +44,17 @@
 /* Color  */
 
 /* Start Border  */
+
 .rad-6 {
     border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.border-color {
+    border: 1px solid #CCC;
 }
 
 /* End Border  */

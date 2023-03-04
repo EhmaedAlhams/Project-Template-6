@@ -1,3 +1,12 @@
+:root {
+    --color-blue: #0075ff;
+    --color-alt-blue: #0d69d5;
+    --color-orange: #f59e0b;
+    --color-green: #22c55e;
+    --color-red: #f44336;
+    --color-gray: #888;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -7,9 +16,9 @@ body {
     padding: 0;
 }
 
-*:focus {
+/* *:focus {
     outline: none;
-}
+} */
 
 a {
     text-decoration: none;
@@ -98,16 +107,59 @@ ul {
 
 /* Content  */
 
-.content {}
-
-.head .search::before {
-    content: '';
+.content {
+    overflow: hidden;
 }
 
-.head .search input[type="search"] {}
+.head .search::before {
+    content: "\f002";
+    font-family: var(--fa-style-family-classic);
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-gray);
+}
 
-.head .search input[type="search"]::focus {}
+.head .search input[type="search"] {
+    padding-left: 40px;
+    width: 175px;
+    transition: width 0.6s;
+}
 
-.head .search input[type="search"]::placeholder {}
+.head .search input[type="search"]:focus {
+    outline-color: var(--color-gray);
+    width: 300px;
+    /* transition: outline-color .6s; */
+}
+
+.head .search input[type="search"]:focus::placeholder {
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+.head .icons .notification {
+    cursor: pointer;
+}
+
+.head .icons .notification::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    right: -2px;
+    top: -1px;
+}
+
+.head .icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
 
 /* Content  */
