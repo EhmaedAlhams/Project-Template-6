@@ -43,7 +43,7 @@ ul {
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--color-alt-blue);
-} 
+}
 
 .body-page {
     background-color: #f1f5f9;
@@ -199,6 +199,21 @@ ul {
 .body-page h1::after {
     background-color: black;
     width: 40px;
+}
+
+.wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 20px;
+        gap: 10px;
+    }
 }
 
 /* Content  */
