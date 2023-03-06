@@ -83,12 +83,20 @@
     color: var(--color-gray);
 }
 
+.color-white {
+    color: white;
+}
+
 .bg-white {
     background-color: white;
 }
 
 .bg-eee {
     background-color: #EEE;
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
 }
 
 /* Color  */
@@ -101,6 +109,10 @@
 
 .rad-10 {
     border-radius: 10px;
+}
+
+.rad-50 {
+    border-radius: 50%;
 }
 
 .border-color {
@@ -117,8 +129,8 @@
 /* Position  */
 
 /* Start Font  */
-.fs-14 {
-    font-size: 14px;
+.fs-16 {
+    font-size: 16px;
 }
 
 .txt-center {
@@ -134,6 +146,9 @@
 /* End Font  */
 
 /* Width & Height  */
+.width-fit {
+    width: fit-content;
+}
 
 .full-width {
     width: 100%;
@@ -154,6 +169,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* SECTION: Component  */
