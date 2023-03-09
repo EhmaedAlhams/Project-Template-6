@@ -91,6 +91,18 @@
     color: white;
 }
 
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
 .bg-white {
     background-color: white;
 }
@@ -101,6 +113,14 @@
 
 .bg-blue {
     background-color: var(--color-blue);
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.bg-green {
+    background-color: var(--color-green);
 }
 
 /* Color  */
@@ -126,6 +146,7 @@
 .border-none {
     border: none;
 }
+
 /* End Border  */
 
 /* Position  */
@@ -142,6 +163,10 @@
 
 .txt-center {
     text-align: center;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -178,7 +203,7 @@
     justify-content: space-between;
 }
 
-.flex-center {
+.center-flex {
     display: flex;
     justify-content: center;
     align-items: center;
