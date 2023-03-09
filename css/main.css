@@ -302,28 +302,28 @@ ul {
 
 /* Section Yearly Target  */
 
-.targets .target-row .icon {
+.box-3 .target-row .icon {
     width: 80px;
     height: 80px;
     margin-right: 15px;
 }
 
-.targets .details {
+.box-3 .details {
     flex: 1;
 }
 
-.targets .details .progress {
+.box-3 .details .progress {
     height: 4px;
 }
 
-.targets .details .progress>span {
+.box-3 .details .progress>span {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
 }
 
-.targets .details .progress>span span {
+.box-3 .details .progress>span span {
     position: absolute;
     bottom: 16px;
     right: -16px;
@@ -333,7 +333,7 @@ ul {
     font-size: 12px;
 }
 
-.targets .details .progress>span span::after {
+.box-3 .details .progress>span span::after {
     content: '';
     border-width: 5px;
     border-color: transparent;
@@ -344,15 +344,15 @@ ul {
     transform: translateX(-50%);
 }
 
-.targets .details .progress>.money span::after {
+.box-3 .details .progress>.money span::after {
     border-top-color: var(--color-blue);
 }
 
-.targets .details .progress>.code span::after {
+.box-3 .details .progress>.code span::after {
     border-top-color: var(--color-orange);
 }
 
-.targets .details .progress>.team span::after {
+.box-3 .details .progress>.team span::after {
     border-top-color: var(--color-green);
 }
 
@@ -374,3 +374,17 @@ ul {
 }
 
 /* Section Yearly Target  */
+
+/* Section Tickets Widget  */
+
+.box-4 .box {
+    width: calc(50% - 10px);
+}
+
+@media (max-width: 767px) {
+    .box-4 .box {
+        width: 100%;
+    }
+}
+
+/* Section Tickets Widget  */

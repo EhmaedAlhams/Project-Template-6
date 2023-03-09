@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .align-center {
     align-items: center;
 }
@@ -68,6 +72,10 @@
     margin-top: 20px;
 }
 
+.mb-5 {
+    margin-bottom: 5px;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -101,6 +109,10 @@
 
 .color-green {
     color: var(--color-green);
+}
+
+.color-red {
+    color: var(--color-red);
 }
 
 .bg-white {
@@ -159,6 +171,10 @@
 /* Start Font  */
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-25 {
+    font-size: 25px;
 }
 
 .txt-center {
