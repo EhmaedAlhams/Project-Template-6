@@ -68,6 +68,10 @@
     margin-top: 20px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -119,6 +123,9 @@
     border: 1px solid #CCC;
 }
 
+.border-none {
+    border: none;
+}
 /* End Border  */
 
 /* Position  */
@@ -175,6 +182,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* SECTION: Component  */
