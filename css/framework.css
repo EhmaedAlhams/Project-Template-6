@@ -232,4 +232,14 @@
     font-weight: bold;
 }
 
+section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 /* SECTION: Component  */
