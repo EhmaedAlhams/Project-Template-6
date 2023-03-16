@@ -169,6 +169,10 @@
 /* Position  */
 
 /* Start Font  */
+.fs-15 {
+    font-size: 15px;
+}
+
 .fs-16 {
     font-size: 16px;
 }

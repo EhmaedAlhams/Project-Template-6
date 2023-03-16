@@ -416,7 +416,7 @@ ul {
     font-size: 14px;
 }
 
-.box-5 .news-row .label{
+.box-5 .news-row .label {
     font-size: 13px !important;
 }
 
@@ -430,4 +430,37 @@ ul {
         width: fit-content;
     }
 }
+
 /* Section Latest News  */
+
+/* Section Tasks Widget  */
+
+.box-6 .task-row:not(:last-of-type) {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EEE;
+}
+
+.box-6 .info {
+    flex-grow: 1;
+}
+
+.box-6 .done {
+    opacity: 0.3;
+}
+
+.box-6 .done h3,
+.box-6 .done p {
+    text-decoration: line-through;
+}
+
+.box-6 .del {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.box-6 .del:hover {
+    color: var(--color-red);
+}
+
+/* Section Tasks Widget  */
