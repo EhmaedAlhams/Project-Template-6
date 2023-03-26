@@ -522,12 +522,40 @@ ul {
 
 /* Section Last Project  */
 
+/* Section Reminders Widget */
+
+.box-10 ul li .key {
+    width: 15px;
+    height: 15px;
+}
+
+.box-10 ul li>.blue {
+    border-left: 2px solid var(--color-blue);
+}
+
+.box-10 ul li>.green {
+    border-left: 2px solid var(--color-green);
+}
+
+.box-10 ul li>.orange {
+    border-left: 2px solid var(--color-orange);
+}
+
+.box-10 ul li>.red {
+    border-left: 2px solid var(--color-red);
+}
+
+/* Section Reminders Widget */
+
+
 /* Section Animation  */
 
 @keyframes change-color {
     from {
         background-color: var(--color-blue);
-    } to {
+    }
+
+    to {
         background-color: white;
     }
 }
