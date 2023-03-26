@@ -478,3 +478,58 @@ ul {
 }
 
 /* Section Latest Uploads  */
+
+/* Section Last Project  */
+
+.box-9 ul::before {
+    left: 11px;
+    content: '';
+    width: 4px;
+    position: absolute;
+    height: 100%;
+    background-color: var(--color-blue);
+}
+
+.box-9 ul li::before {
+    background-color: white;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 2px solid var(--color-blue);
+    margin-right: 15px;
+    z-index: 1;
+}
+
+.box-9 ul li.done::before {
+    content: '';
+    background-color: var(--color-blue);
+}
+
+.box-9 ul li.current::before {
+    content: '';
+    animation: change-color .8s infinite alternate;
+}
+
+.box-9 img {
+    position: absolute;
+    width: 160px;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+}
+
+/* Section Last Project  */
+
+/* Section Animation  */
+
+@keyframes change-color {
+    from {
+        background-color: var(--color-blue);
+    } to {
+        background-color: white;
+    }
+}
+
+/* Section Animation  */
