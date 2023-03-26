@@ -465,3 +465,16 @@ ul {
 }
 
 /* Section Tasks Widget  */
+
+/* Section Latest Uploads  */
+
+.box-8 ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.box-8 img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Section Latest Uploads  */

@@ -48,6 +48,10 @@
     padding-top: 15px;
 }
 
+.pd-10 {
+    padding-bottom: 10px;
+}
+
 .pm-15 {
     padding-bottom: 15px;
 }
@@ -78,6 +82,10 @@
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
 }
 
 .mb-5 {
