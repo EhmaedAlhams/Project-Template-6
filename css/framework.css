@@ -44,6 +44,14 @@
     padding: 15px;
 }
 
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pm-15 {
+    padding-bottom: 15px;
+}
+
 .p-20 {
     padding: 20px;
 }
@@ -177,6 +185,10 @@
     font-size: 16px;
 }
 
+.fs-18 {
+    font-size: 18px;
+}
+
 .fs-25 {
     font-size: 25px;
 }
@@ -246,4 +258,5 @@ section h2 {
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 /* SECTION: Component  */
