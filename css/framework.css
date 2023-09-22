@@ -255,6 +255,10 @@
     width: 100%;
 }
 
+.height-full {
+    height: 100%;
+}
+
 @media (max-width: 767px) {
     .hide-mobile {
         width: 62px;

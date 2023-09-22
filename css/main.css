@@ -566,6 +566,68 @@ ul {
 
 /* Section Latest Post  */
 
+
+/* Section Social Media */
+
+.box-12 .box {
+    padding-left: 70px;
+}
+
+.box-12 .box i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    transition: .3s;
+}
+
+.box-12 .box i:hover {
+    transform: rotate(5deg);
+}
+
+.box-12 .twitter {
+    background-color: rgb(29 161 242 / 20%);
+    color: #1da1f2;
+}
+
+.box-12 .twitter i,
+.box-12 .twitter a {
+    background-color: #1da1f2;
+}
+
+.box-12 .facebook {
+    background-color: rgb(24 119 242 / 20%);
+    color: #1877f2;
+}
+
+.box-12 .facebook i,
+.box-12 .facebook a {
+    background-color: #1877f2;
+}
+
+.box-12 .youtube {
+    background-color: rgb(255 0 0 / 20%);
+    color: #ff0000;
+}
+
+.box-12 .youtube i,
+.box-12 .youtube a {
+    background-color: #ff0000;
+}
+
+.box-12 .linkedin {
+    background-color: rgb(10 102 194 / 20%);
+    color: #0a66c2;
+}
+
+.box-12 .linkedin i,
+.box-12 .linkedin a {
+    background-color: #0a66c2;
+}
+
+/* Section Social Media */
+
+
 /* Section Animation  */
 
 @keyframes change-color {
