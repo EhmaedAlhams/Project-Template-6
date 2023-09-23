@@ -628,6 +628,58 @@ ul {
 /* Section Social Media */
 
 
+/* Section Project Table */
+
+.projects .responsive-table {
+    overflow-x: auto;
+}
+
+.projects table {
+    min-width: 1000px;
+    border-spacing: 0;
+}
+
+.projects thead td {
+    background-color: #EEE;
+    font-weight: bold;
+}
+
+.projects table td {
+    padding: 15px;
+}
+
+.projects table tbody tr td:last-child {
+    border-right: 1px solid #EEE;
+}
+
+.projects tbody td {
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    transition: 0.3s;
+}
+
+.projects tbody tr:hover {
+    background-color: #faf7f7;
+}
+
+.projects table img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+.projects table img:not(:first-child) {
+    margin-left: -20px;
+}
+
+.projects table .label {
+    font-size: 14px;
+}
+/* Section Project Table */
+
+
 /* Section Animation  */
 
 @keyframes change-color {
