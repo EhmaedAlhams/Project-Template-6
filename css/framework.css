@@ -113,12 +113,20 @@
     margin-right: 15px;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
 .mb-5 {
     margin-bottom: 5px;
 }
 
 .mb-10 {
     margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
 }
 
 .mb-20 {
@@ -214,6 +222,10 @@
 /* Position  */
 
 /* Start Font  */
+.fs-13 {
+    font-size: 13px;
+}
+
 .fs-15 {
     font-size: 15px;
 }
