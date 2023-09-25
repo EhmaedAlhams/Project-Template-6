@@ -684,7 +684,7 @@ ul {
 /* Section Setting Page */
 
 .setting-page {
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 @media (max-width: 767px) {
@@ -746,6 +746,31 @@ ul {
     transition: .3s;
 }
 
+.setting-page section input::placeholder,
+.setting-page section textarea::placeholder {
+    font-size: 18px;
+    text-align: center;
+}
+
+.setting-page section:nth-of-type(2) input {
+    border: 1px solid #CCC;
+}
+
+.setting-page section:nth-of-type(2) input::placeholder {
+    text-align: left;
+}
+
+.setting-page input[type="email"] {
+    display: inline-flex;
+    width: calc(100% - 100px);
+}
+
+.setting-page #BtnEmail {
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 
 /* Section Setting Page */
 
