@@ -705,6 +705,7 @@ ul {
 .toggle-checkbox {
     -webkit-appearance: none;
     appearance: none;
+    display: none;
 }
 
 .toggle-switch {

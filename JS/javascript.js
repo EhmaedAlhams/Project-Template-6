@@ -15,6 +15,13 @@ BtnChange.addEventListener("click", () => {
     }
 });
 
+// That's when leave focus save what the user input it.
+
+// InputEmail.addEventListener('focusout', () => {
+//     console.log("OnBlur!");
+// });
+
+
 // if (isEnabled) {
     
 // } else if (isEnabled = false) {
