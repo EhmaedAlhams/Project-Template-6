@@ -796,6 +796,50 @@ ul {
     cursor: pointer;
 }
 
+/* Section Social Information */
+
+.setting-page .social-info i {
+    width: 40px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    transition: .3s;
+}
+
+.setting-page .social-info input {
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    border-radius: 0 6px 6px 0;
+    outline: none;
+}
+
+.setting-page .social-info>div:focus-within i.fa-twitter {
+    color: #1da1f2;
+}
+
+.setting-page .social-info>div:focus-within i.fa-facebook {
+    color: #1877f2;
+}
+
+.setting-page .social-info>div:focus-within i.fa-linkedin {
+    color: #0a66c2;
+}
+
+.setting-page .social-info>div:focus-within i.fa-youtube {
+    color: #ff0000;
+}
+
+.setting-page .social-info>div:focus-within input::placeholder {
+    color: black;
+    transition: 1s;
+}
+
+/* Section Social Information */
+
 /* Section Setting Page */
 
 
