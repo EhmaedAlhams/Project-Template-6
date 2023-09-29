@@ -286,7 +286,6 @@ ul {
 
 .box-2 textarea {
     resize: none;
-    min-height: 180px;
 }
 
 .box-2 .save {
@@ -687,6 +686,14 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.setting-page .button {
+    transition: .3s;
+}
+
+.setting-page .button:hover {
+    background-color: var(--color-alt-blue);
+}
+
 @media (max-width: 767px) {
     .setting-page {
         grid-template-columns: minmax(100px, 1fr);
@@ -699,7 +706,8 @@ ul {
 .setting-page .close-message {
     border: 1px solid #CCC;
     resize: none;
-    min-height: 150px;
+    min-height: 200px;
+    margin-top: 24px;
 }
 
 .toggle-checkbox {
@@ -761,9 +769,24 @@ ul {
     text-align: left;
 }
 
+
+.setting-page .security-info {
+    padding-bottom: 30px;
+}
+
+.setting-page .security-info:not(:last-of-type) {
+    border-bottom: 1px solid #EEE;
+}
+
 .setting-page input[type="email"] {
     display: inline-flex;
     width: calc(100% - 100px);
+}
+
+.setting-page input[type="email"]:disabled {
+    cursor: no-drop;
+    background-color: #F0F4F8;
+    color: #bbb;
 }
 
 .setting-page #BtnEmail {
