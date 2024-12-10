@@ -780,7 +780,7 @@ ul {
 
 .setting-page input[type="email"] {
     display: inline-flex;
-    width: calc(100% - 100px);
+    width: calc(100% - 82px);
 }
 
 .setting-page input[type="email"]:disabled {
@@ -790,10 +790,16 @@ ul {
 }
 
 .setting-page #BtnEmail {
-    background-color: white;
     outline: none;
-    border: none;
     cursor: pointer;
+    border: 1px solid #eee;
+    padding: 10px 14px;
+    background-color: ghostwhite;
+    border-radius: 6px;
+}
+
+.setting-page #BtnEmail:hover {
+    background-color: #F8F8F9;
 }
 
 /* Section Social Information */
