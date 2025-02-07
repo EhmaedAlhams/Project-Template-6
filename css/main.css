@@ -845,6 +845,62 @@ ul {
 }
 
 /* Section Social Information */
+/* Widget Control */
+
+.widget-control .control input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.widget-control .control label {
+    padding-left: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.widget-control .control label::before,
+.widget-control .control label::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 4px;
+}
+
+.widget-control .control label::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--color-gray);
+    margin-top: -9px;
+}
+
+.widget-control .control label:hover::before {
+    border-color: var(--color-alt-blue);
+}
+
+.widget-control .control label::after {
+    content: "\f00c";
+    font-family: var(--fa-style-family-classic);
+    font-weight: 900;
+    margin-top: -9px;
+    background-color: var(--color-blue);
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0) rotate(360deg);
+    transition: .3s;
+}
+
+.widget-control .control input[type="checkbox"]:checked+label::after {
+    transform: scale(1);
+}
+
+/* Widget Control */
+
 
 /* Section Setting Page */
 
