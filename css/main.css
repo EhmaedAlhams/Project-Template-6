@@ -901,6 +901,87 @@ ul {
 
 /* Widget Control */
 
+/* backup-control */
+
+
+.backup-control .time {
+    padding-left: 30px;
+    position: relative;
+}
+
+.backup-control .time label{
+    cursor: pointer;
+}
+
+.backup-control .time label::before,
+.backup-control .time label::after {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+}
+
+.backup-control .time label::before {
+    left: 0;
+    top: 50%;
+    margin-top: -11px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-gray);
+}
+
+.backup-control .time label::after {
+    left: 5px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-blue);
+    transition: .3s;
+    transform: scale(0);
+}
+
+.backup-control input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.backup-control .time input[type="radio"]:checked+label::before {
+    border-color: var(--color-blue);
+}
+
+.backup-control .time input[type="radio"]:checked+label::after {
+    transform: scale(1);
+}
+
+.backup-control .div-servers {
+    border-top: 1px solid #EEE;
+    padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .backup-control .div-servers {
+        flex-wrap: wrap;
+    }
+
+}
+
+.backup-control .div-servers .server {
+    border: 1px solid #EEE;
+    position: relative;
+}
+
+.backup-control .div-servers .server label {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.backup-control .div-servers input[type="radio"]:checked+.server {
+    border-color: var(--color-blue);
+    color: var(--color-blue);
+    transition: .3s;
+}
+
+
+/* backup-control */
 
 /* Section Setting Page */
 
