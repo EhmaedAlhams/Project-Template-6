@@ -909,7 +909,7 @@ ul {
     position: relative;
 }
 
-.backup-control .time label{
+.backup-control .time label {
     cursor: pointer;
 }
 
@@ -985,6 +985,52 @@ ul {
 
 /* Section Setting Page */
 
+/* Section Profile Page  */
+/* Profile */
+
+.profile-page section {
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .profile-page section {
+        flex-direction: column;
+    }
+}
+
+.profile-page .avatar-box {
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .profile-page .avatar-box {
+        border-right: 1px solid #EEE;
+    }
+}
+
+.profile-page .avatar-box>img {
+    width: 120px;
+    height: 120px;
+}
+
+.profile-page .avatar-box .level-box {
+    height: 4px;
+    overflow: hidden;
+    margin: auto;
+    width: 70%;
+}
+
+.profile-page .avatar-box .level-box span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+    height: 100%;
+    background-color: var(--color-blue);
+}
+
+/* Profile */
+/* Section Profile Page  */
 
 /* Section Animation  */
 
