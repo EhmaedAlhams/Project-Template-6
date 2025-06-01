@@ -988,9 +988,9 @@ ul {
 /* Section Profile Page  */
 /* Profile */
 
-.profile-page section {
+/* .profile-page section {
     flex-direction: column;
-}
+} */
 
 @media (max-width: 768px) {
     .profile-page section {
@@ -999,7 +999,8 @@ ul {
 }
 
 .profile-page .avatar-box {
-    width: 300px;
+    text-align: center;
+    width: 380px;
 }
 
 @media (min-width: 768px) {
@@ -1027,6 +1028,25 @@ ul {
     border-radius: 6px;
     height: 100%;
     background-color: var(--color-blue);
+}
+
+.profile-page .info-box .box {
+    flex-wrap: wrap;
+    border: 1px solid #EEE;
+    transition: .3s;
+}
+
+.profile-page .info-box .box:hover {
+    background-color: #f9f9f9;
+}
+
+.profile-page .info-box .box>div {
+    min-width: 200px;
+    padding: 10px 0 0;
+}
+
+.profile-page .info-box .box h4 {
+    font-weight: normal;
 }
 
 /* Profile */
