@@ -961,7 +961,6 @@ ul {
     .backup-control .div-servers {
         flex-wrap: wrap;
     }
-
 }
 
 .backup-control .div-servers .server {
@@ -1047,6 +1046,94 @@ ul {
 
 .profile-page .info-box .box h4 {
     font-weight: normal;
+}
+
+.profile-page .info-box .toggle-switch {
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-page .info-box .toggle-switch {
+        margin: auto;
+    }
+}
+
+.profile-page .info-box .toggle-switch::before {
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+}
+
+.profile-page .info-box .toggle-checkbox:checked+.toggle-switch::before {
+    left: 62px;
+}
+
+@media (max-width: 767px) {
+    .profile-page .data-activity {
+        flex-direction: column;
+    }
+}
+
+.profile-page .skills-card {
+    flex-grow: 1;
+}
+
+.profile-page .skills-card ul li {
+    padding: 15px 0;
+}
+
+.profile-page .skills-card ul li:not(:last-child) {
+    border-bottom: 1px solid #EEE;
+}
+
+.profile-page .skills-card ul li span {
+    display: inline-flex;
+    padding: 4px 10px;
+    background-color: #EEE;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.profile-page .skills-card ul li span:not(:last-child) {
+    margin-right: 5px;
+}
+
+.profile-page .activities-card {
+    flex-grow: 2;
+}
+
+.profile-page .activities-card img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.profile-page .activities-card .box-activity:not(:last-of-type) {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .profile-page .activities-card {
+        flex-direction: column;
+    }
+
+    .profile-page .activities-card img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .profile-page .activities-card .date {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile-page .activities-card .date {
+        margin-left: auto;
+        text-align: right;
+    }
 }
 
 /* Profile */
