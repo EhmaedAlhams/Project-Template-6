@@ -1139,6 +1139,134 @@ ul {
 /* Profile */
 /* Section Profile Page  */
 
+/* Section Projects Page */
+
+.projects-page {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+
+.projects-page .date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.projects-page .date h4 {
+    font-weight: normal;
+}
+
+.projects-page section .team {
+    position: relative;
+    min-height: 80px;
+}
+
+.projects-page section .team a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.projects-page section .team a:nth-child(2) {
+    left: 25px;
+}
+
+.projects-page section .team a:nth-child(3) {
+    left: 50px;
+}
+
+.projects-page section .team a:nth-child(4) {
+    left: 75px;
+}
+
+.projects-page section .team a:nth-child(5) {
+    left: 100px;
+}
+
+.projects-page section .team a:hover {
+    z-index: 1000;
+}
+
+.projects-page section .team img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.projects-page section .tech {
+    justify-content: flex-end;
+    border-top: 1px solid #EEE;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .projects-page section .tech {
+        flex-direction: column;
+    }
+}
+
+.projects-page section .tech span {
+    padding: 3px 8px;
+    margin-left: 5px;
+    width: fit-content;
+    font-weight: normal;
+}
+
+@media (max-width: 767px) {
+    .projects-page section .tech span:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.projects-page section .info {
+    border-top: 1px solid #EEE;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .projects-page section .info {
+        flex-direction: column;
+    }
+}
+
+.projects-page section .prog {
+    height: 8px;
+    width: 260px;
+    position: relative;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .projects-page section .prog {
+        margin-bottom: 15px;
+    }
+}
+
+.projects-page section .prog span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 6px;
+
+}
+
+/* Section Projects Page */
+
+
 /* Section Animation  */
 
 @keyframes change-color {
