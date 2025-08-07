@@ -1286,11 +1286,22 @@ ul {
 .courses-page .course {
     overflow: hidden;
     padding: 0;
+    position: relative;
+    background-color: rgb(215 221 236);
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: box-shadow .3s;
+}
+
+.courses-page .course:hover {
+    box-shadow: 0 0 15px #314279;
 }
 
 .courses-page .course article h3 {
     height: 15px;
 }
+
 .courses-page .course .cover {
     max-width: 100%;
 }
@@ -1312,6 +1323,11 @@ ul {
 .courses-page .course .info {
     font-size: 14px;
     border-top: 1px solid #EEE;
+}
+
+.courses-page .course:hover .info {
+    background-color: #beb6c34d;
+    transition: box-shadow .3s, background-color .3s;
 }
 
 .courses-page .course .info .title {
