@@ -267,6 +267,10 @@
 /* End Font  */
 
 /* Width & Height  */
+.width-100 {
+    width: 100px;
+}
+
 .width-fit {
     width: fit-content;
 }
@@ -277,6 +281,10 @@
 
 .height-full {
     height: 100%;
+}
+
+.height-100 {
+    height: 100px;
 }
 
 @media (max-width: 767px) {
