@@ -26,8 +26,10 @@ This web dashboard is built primarily with **HTML** (74.2%), **CSS** (24.6%), an
 
 ## Timeline
 
-- **Start Date:** September 6, 2025
+- **Start Date:** October 10, 2023
 - **End Date:** September 9, 2025
+
+> **Note:** Project development and progress were delayed due to the war on Gaza. Despite the challenging circumstances, effort was made to continue learning and building whenever possible.
 
 ## Getting Started
 
