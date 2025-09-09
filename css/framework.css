@@ -48,6 +48,10 @@
     padding: 15px;
 }
 
+.pt-10 {
+    padding-top: 10px;
+}
+
 .pt-15 {
     padding-top: 15px;
 }
@@ -225,6 +229,10 @@
 /* Position  */
 .relative {
     position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 /* Position  */
