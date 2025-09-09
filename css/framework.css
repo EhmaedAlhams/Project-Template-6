@@ -212,6 +212,10 @@
     border: 1px solid #CCC;
 }
 
+.border-eee { 
+    border: 1px solid #EEE;
+}
+
 .border-none {
     border: none;
 }
