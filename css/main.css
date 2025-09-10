@@ -1478,6 +1478,98 @@ ul {
 
 /* Section Files Page  */
 
+/* Section Plans Page */
+
+.plans-page {
+    grid-template-columns: repeat(auto-fill, minmax(395px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .plans-page {
+        grid-template-columns: minmax(250px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+
+.plans-page .plan .payment-plan {
+    border: 3px solid white;
+    outline: 3px solid transparent;
+}
+
+.plans-page .plan.green .payment-plan {
+    outline-color: var(--color-green);
+}
+
+.plans-page .plan.blue .payment-plan {
+    outline-color: var(--color-blue);
+}
+
+.plans-page .plan.orange .payment-plan {
+    outline-color: var(--color-orange);
+}
+
+.plans-page .plan .price {
+    position: relative;
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+}
+
+.plans-page .plan .price span {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-size: 26px;
+}
+
+.plans-page .plan ul li {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid #EEE;
+}
+
+.plans-page .plan ul span {
+    font-size: 18px;
+}
+
+.plans-page .plan ul li .yes {
+    color: var(--color-green);
+}
+
+.plans-page .plan ul li i:not(.yes, .help) {
+    color: var(--color-red);
+}
+
+.plans-page .plan ul li i:first-child {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.plans-page .plan ul li .help {
+    color: var(--color-gray);
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.plans-page .plan a {
+    padding: 8px 25px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.plans-page .plan.orange p {
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+/* Section Plans Page  */
+
 /* Section Animation  */
 
 @keyframes change-color {
